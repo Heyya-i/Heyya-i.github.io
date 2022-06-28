@@ -1,0 +1,119 @@
+:root {
+	font-family: -apple-system,SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 36px;
+	--scale: 2;
+	--opacity: 1;
+}
+
+body {
+	margin: 10px 14px 60px 14px;
+	
+	background-color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin-top: 0vh;
+	/*   margin-bottom: -80vh; */
+	transform: scale(var(--scale));
+	opacity: var(--opacity);
+}
+
+svg {
+	fill: black;
+}
+
+h1,
+h2 {
+	font-size: 40px;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	/*   margin-top: 120vh; */
+	margin-bottom: 6vh;
+	/*   min-height: 100vh; */
+	position: sticky;
+	top: 0;
+}
+
+h1 {
+	margin-top: 6rem;
+	margin-left: -10px;
+	font-size: 60px;
+	line-height: 100px;
+	color: ;
+}
+
+p {
+	margin: 0;
+	margin-bottom: 20px;
+	color: #6e6e73;
+}
+
+sup {
+	font-size: 20px;
+	vertical-align: super;
+	line-height: 0;
+}
+a {
+	color: #ca1f1f;
+}
+
+a:hover {
+	color: #6e6e73;
+	text-decoration: none;
+}
+
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+@media screen and (min-width: 914px) {
+	body {
+		width: 854px;
+		margin:10px auto;
+	}
+}
+
+@media print {
+	body,h1,h2 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #a1a1a6;
+		background: black;
+	}
+	svg {
+		fill: white;
+	}
+	a {
+		color: #ca1f1f;
+	}
+	a:hover {
+		color: #86868b;
+		text-decoration: none;
+	}
+	p {
+		color: #86868b;
+	}
+	h1,
+	h2{
+		color: #e6e6e6;
+	}
+}
