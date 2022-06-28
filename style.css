@@ -20,7 +20,6 @@ body {
 	align-items: center;
 	min-height: 100vh;
 	margin-top: 0vh;
-	/*   margin-bottom: -80vh; */
 	transform: scale(var(--scale));
 	opacity: var(--opacity);
 }
@@ -38,11 +37,7 @@ h2 {
 }
 
 .main {
-	/*   margin-top: 120vh; */
-	margin-bottom: 6vh;
-	/*   min-height: 100vh; */
-	position: sticky;
-	top: 0;
+	margin-bottom: 10vh;
 }
 
 h1 {
