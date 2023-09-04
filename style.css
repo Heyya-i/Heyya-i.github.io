@@ -1,5 +1,6 @@
 :root {
-	font-family: -apple-system,SF Pro SC,SF Pro Text,SF Pro Icons,AOS Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+/*	font-family: -apple-system,SF Pro SC,SF Pro Text,SF Pro Icons,AOS Icons,PingFang SC,Helvetica Neue,Helvetica,Yantramanav,Arial,sans-serif; */
+	font-family: "SF Pro Display","Arial",sans-serif;
 	font-weight: 300;
 	line-height: 36px;
 	--scale: 2;
