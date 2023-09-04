@@ -1,6 +1,5 @@
 :root {
-/*	font-family: -apple-system,SF Pro SC,SF Pro Text,SF Pro Icons,AOS Icons,PingFang SC,Helvetica Neue,Helvetica,Yantramanav,Arial,sans-serif; */
-	font-family: "SF Pro Display","Arial",sans-serif;
+	font-family: -apple-system,"SF Pro Display","Arial",sans-serif;
 	font-weight: 300;
 	line-height: 36px;
 	--scale: 2;
@@ -12,6 +11,11 @@
 	--h-size-heading3: 2.5rem;
 	--h-size-body: 1.5rem;
 	--h-size-subtitle: 1.25rem;
+}
+
+::selection {
+	color: white;
+	background-color: black;
 }
 
 body {
@@ -104,6 +108,10 @@ a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
+	::selection {
+		color: black;
+		background-color: white;
+	}
 	body {
 		color: #a1a1a6;
 		background: black;
