@@ -17,6 +17,10 @@
 	color: white;
 	background-color: black;
 }
+a::selection {
+	color: var(--link-color);	
+	background-color: black;
+}
 
 body {
 	margin: 10px 14px 60px 14px;
@@ -110,6 +114,10 @@ a:hover {
 @media (prefers-color-scheme: dark) {
 	::selection {
 		color: black;
+		background-color: white;
+	}
+	a::selection{
+		color: var(--link-color-dark);	
 		background-color: white;
 	}
 	body {
