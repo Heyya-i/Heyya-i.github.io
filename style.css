@@ -69,8 +69,8 @@ h2 {
 }
 
 h1 img{
-	width: 8rem;	
-	border-radius: 4rem;
+	width: 6rem;	
+	border-radius: 3rem;
 }
 
 p {
@@ -106,8 +106,12 @@ a:hover {
 
 @media screen and (min-width: 914px) {
 	body {
-		width: 854pxsl
+		width: 854px;
 		margin:10px auto;
+	}
+	h1 img{
+		width: 8rem;	
+		border-radius: 4rem;
 	}
 }
 
